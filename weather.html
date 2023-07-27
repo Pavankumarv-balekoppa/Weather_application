@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+        <section class="weather">
+            <div class="location">
+                <h3 id="city" style="font-size :50px">city name</h3>
+                <h5 id="country" style="font-size:30px">country name</h5>
+            </div>
+            <div class="information">
+                <div class="temp">
+                    <h2><span id="digri">0</span><sup>o</sup>C</h2>
+                </div>
+                <div class="img">
+                    <img src="https://oxenticstemplates.biz/templatemonster/weather/images/banne-img-right.png" alt="">
+                </div>
+            </div>
+            <div class="search">
+                <input id="user_input" type="text" placeholder="Enter city name">
+                <button onclick="searchTemp()">Search</button>
+            </div>
+        </section>
+        <script src="weather.js"></script>
+</body>
+</html> 
+<!-- uplash website for images -->
